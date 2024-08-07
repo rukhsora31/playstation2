@@ -48,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 0px;
+    justify-content: center;
 
     @media (max-width:1400px) {
         flex-direction: column;
@@ -56,15 +57,17 @@ body {
 }
 
 .imgps {
-    width: 600px;
-    @media (max-width: 1000px) {
+    max-width: 600px;
+    width: 100%;
+    @media (max-width: 850px) {
         flex-direction: column;
-        width: 400px;
+
+       max-width: 400px;
     }
 }
 
 .box1 {
-
+max-width: 400px;
     h1 {
         font-size: 60px;
         margin-bottom: 35px;

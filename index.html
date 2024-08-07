@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <header class="header">
         <div class="container">
             <div class="wrap1">
-                <img class="logo" src="./img/logo.png" alt="">
+                <img data-aos="zoom-in"  data-aos-delay="200" class="logo" src="./img/logo.png" alt="">
 
                 <div class="menu">
-                    <a href="">Home</a>
-                    <a href="">Shop</a>
-                    <a href="">Prices</a>
-                    <a href="">Contacts</a>
+                    <a data-aos="zoom-in"  data-aos-delay="300" href="">Home</a>
+                    <a data-aos="zoom-in"  data-aos-delay="400" href="">Shop</a>
+                    <a data-aos="zoom-in"  data-aos-delay="500" href="">Prices</a>
+                    <a data-aos="zoom-in"  data-aos-delay="600" href="">Contacts</a>
                 </div>
                 <div class="menu">
-                    <a class="" href="">Sign up</a>
+                    <a data-aos="zoom-in"  data-aos-delay="800" class="" href="">Sign up</a>
                 </div>
             </div>
         </div>
@@ -32,21 +31,26 @@
     <div class="section">
         <div class="container">
             <div class="wrap2">
-                <div class="box1">
+                <div data-aos="flip-up"   data-aos-delay="1000" class="box1">
                     <h1>Playstation 5</h1>
                     <p>The Playstation 5 (PS5) is a home video game console developed by Sony Interactive Entartaiment.
                         It was announced as the successor to the Playstation 4 in April 2019, was launched on November
                         12, 2020</p>
                     <div class="btn">
-                        <button class="btn1">Buy</button>
-                        <button class="btn2">More</button>
+                        <button data-aos="flip-up"   data-aos-delay="1400" class="btn1">Buy</button>
+                        <button data-aos="flip-up"   data-aos-delay="1500" class="btn2">More</button>
                     </div>
                 </div>
-                <img class="imgps" src="./img/PS5-Controller.png" alt="">
+                <img data-aos="flip-up"   data-aos-delay="1700" class="imgps" src="./img/PS5-Controller.png" alt="">
             </div>
         </div>
     </div>
 
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
